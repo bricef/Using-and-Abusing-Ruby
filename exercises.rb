@@ -106,7 +106,7 @@ Riot.context "Math operators" do
   asserts("MULT[ONE][ONE] is 1"){1 == to_integer(MULT[ONE][ONE])}
   asserts("MULT[TWO][ONE] is 2"){2 == to_integer(MULT[TWO][ONE])}
   asserts("MULT[TWO][TWO] is 4"){4 == to_integer(MULT[TWO][TWO])}
-  asserts("EXP[TWO][THREE] is 16"){16 == to_integer(EXP[TWO][THREE])}
+  asserts("EXP[TWO][THREE] is 8"){8 == to_integer(EXP[TWO][THREE])}
   asserts("EXP[THREE][TWO] is 9"){9 == to_integer(EXP[THREE][TWO])}
 end
 
