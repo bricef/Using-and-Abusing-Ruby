@@ -109,4 +109,16 @@ Riot.context "Math operators" do
   asserts("EXP[TWO][THREE] is 16"){16 == to_integer(EXP[TWO][THREE])}
   asserts("EXP[THREE][TWO] is 9"){9 == to_integer(EXP[THREE][TWO])}
 end
+
+Riot.context "Integer Equality" do
+  asserts("IS_ZERO[ZERO] is true"){to_boolean(IS_ZERO[ZERO])}
+  asserts("IS_ZERO[ONE] is false"){not to_boolean(IS_ZERO[ONE])}
+  asserts("IS_ZERO[TWO] is false"){not to_boolean(IS_ZERO[TWO])}
+  asserts("LEQ[ONE][TWO] is true"){to_boolean(LEQ[ONE][TWO])}
+  asserts("LEQ[TWO][ONE] is false"){not to_boolean(LEQ[TWO][ONE])}
+  asserts("EQ[ONE][TWO] is false"){not to_boolean(EQ[ONE][TWO])}
+  asserts("EQ[TWO][ONE] is false"){not to_boolean(EQ[TWO][ONE])}
+  asserts("EQ[TWO][TWO] is true"){to_boolean(EQ[TWO][TWO])}
+end
+
 Riot.alone!
