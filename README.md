@@ -6,7 +6,7 @@ This Talk/Workshop was given at:
  - The [Sheffield Ruby User Group](https://shrug.org/) on 2017-03-13
  - The [Cambridge Programmer's Study Group](https://www.meetup.com/Cambridge-Programmers-Study-Group/) on 2017-03-15
 
- You can get the latest slides [here](https://github.com/bricef/Using-and-Abusing-Ruby/blob/master/Using-and-Abusing-Ruby.pdf).
+ You can get the latest slides [here (PDF)](https://github.com/bricef/Using-and-Abusing-Ruby/raw/master/Using-and-Abusing-Ruby.pdf).
 
  This ~~owes a lot to~~ is basically stolen from Chapter 6 of [Understanding Computation](http://computationbook.com/) by [Tom Stuart](https://twitter.com/tomstuart). It's a great book and worthy of your time. It goes into a lot more detail than this talk does, including showing how to add some of the bits that were skipped for this talk, such as recursion.
 
